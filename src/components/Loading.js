@@ -13,7 +13,6 @@ const styles = StyleSheet.create({
   container: {
     padding: 10,
     width: "100%",
-    minHeight: 60,
     backgroundColor: "bisque",
   },
   text: {

@@ -7,9 +7,7 @@ const Item = ({ name, id }) => {
 
   return (
     <View style={styles.container}>
-      <TouchableOpacity
-        onPress={() => navigation.navigate("UserDetail", { id })}
-      >
+      <TouchableOpacity onPress={() => navigation.navigate("UserDetail", { id })}>
         <Text style={styles.text}>{name} </Text>
       </TouchableOpacity>
     </View>

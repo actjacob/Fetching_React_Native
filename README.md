@@ -11,6 +11,8 @@ Fetcging uygulamamızda React Navigation kullanmak için gerekli tüm kütüphan
 3.  Stack Navigator için Paket Yükleme
     Stack tabanlı gezinme (sayfalar arası geçişler) için gerekli olan paketi yükleyin:
     npm install @react-navigation/stack
+    YA DA
+    npm install @react-navigation/native-stack
 
 4.  Tab Navigator için Paket Yükleme
     Alt menü (Tab bar) için kullanılan paketi yükleyin:
@@ -20,3 +22,13 @@ Fetcging uygulamamızda React Navigation kullanmak için gerekli tüm kütüphan
 
         Yan menü (Drawer) için kullanılan paketi yükleyin:
         npm install @react-navigation/drawer
+
+EĞER PULL YAPMADAN COMMİT AND PUSH YAPTIYSANIZ:
+git commit -m
+"Merged origin/master into master"
+
+VE ARDINDAN:
+git push origin master
+
+axios kütüphanesini yüklemek için gerekli komut:
+npm install axios
